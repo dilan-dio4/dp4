@@ -15,7 +15,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import { BrowserRouter as Router, Route, Link, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Link, useLocation } from "react-router-dom";
 import Home from "./routes/Home";
 import User from "./routes/User";
 import HomeIcon from '@material-ui/icons/Home';
